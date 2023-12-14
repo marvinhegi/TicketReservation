@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Drawing.Printing;
+using CinemaTicketReservation.Model;
 
 namespace CinemaTicketReservation
 {
@@ -24,7 +25,7 @@ namespace CinemaTicketReservation
         private void ShowReservationsForm_Load(object sender, EventArgs e)
         {
             // TODO: die Reservationen für die im Hauptformular ausgewählte Show in diesem Formular anzeigen
-            textBoxShow.Text = ReservationForm.;
+            textBoxShow.Text = ReservationForm.comboBoxShows.SelectedItem.ToString();
             textBoxShowReservations.Text = "TODO: In dieser Textbox alle bestehenden Reservationen für die entsprechende Show auflisten";
         }
 
