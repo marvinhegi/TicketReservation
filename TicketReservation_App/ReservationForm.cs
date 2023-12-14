@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Windows.Forms;
 
@@ -134,8 +135,9 @@ namespace CinemaTicketReservation
         private void buttonShowReservations_Click(object sender, EventArgs e)
         {
             // TODO: alle bestehenden Reservationen für die ausgewählte Vorführung im "ShowReservationsForm" anzeigen
-
-            ShowReservationsForm f = new ShowReservationsForm();
+            Show show = comboBoxShows.SelectedItem as Show;
+            
+            ShowReservationsForm f = new ShowReservationsForm(show);
             f.ShowDialog();
         }
 

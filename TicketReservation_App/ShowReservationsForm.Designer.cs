@@ -44,7 +44,7 @@
             this.textBoxShowReservations.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxShowReservations.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxShowReservations.Location = new System.Drawing.Point(5, 43);
-            this.textBoxShowReservations.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxShowReservations.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxShowReservations.Multiline = true;
             this.textBoxShowReservations.Name = "textBoxShowReservations";
             this.textBoxShowReservations.ReadOnly = true;
@@ -57,7 +57,7 @@
             // 
             this.buttonExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonExit.Location = new System.Drawing.Point(677, 265);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(100, 38);
             this.buttonExit.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             this.buttonPrint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonPrint.Location = new System.Drawing.Point(569, 265);
-            this.buttonPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonPrint.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(100, 38);
             this.buttonPrint.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.textBoxShow.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxShow.Location = new System.Drawing.Point(192, 17);
-            this.textBoxShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxShow.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxShow.Name = "textBoxShow";
             this.textBoxShow.ReadOnly = true;
             this.textBoxShow.Size = new System.Drawing.Size(487, 16);
@@ -114,13 +114,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.textBoxShowReservations);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ShowReservationsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Reservationen anzeigen/drucken";
-            this.Load += new System.EventHandler(this.ShowReservationsForm_Load);
+            this.Load += new System.EventHandler(this.ShowReservationsForm_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
